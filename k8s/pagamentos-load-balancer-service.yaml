@@ -11,7 +11,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 6001
+    targetPort: 6003
   selector:
     app: pagamentos-deployment
   type: LoadBalancer
