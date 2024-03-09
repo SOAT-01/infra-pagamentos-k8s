@@ -40,29 +40,24 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: secret-pagamentos
-                  key: MONGODB_DB                  
-            - name: PEDIDO_SVC_URL
-              valueFrom:
-                secretKeyRef:
-                  name: secret-pagamentos
-                  key: PEDIDO_SVC_URL      
+                  key: MONGODB_DB
             - name: SQS_REGION
               valueFrom:
                 secretKeyRef:
                   name: secret-pagamentos
-                  key: SQS_REGION      
+                  key: SQS_REGION
             - name: SQS_ACCESS_KEY_ID
               valueFrom:
                 secretKeyRef:
                   name: secret-pagamentos
-                  key: SQS_ACCESS_KEY_ID      
+                  key: SQS_ACCESS_KEY_ID
             - name: SQS_SECRET_ACCESS_KEY
               valueFrom:
                 secretKeyRef:
                   name: secret-pagamentos
-                  key: SQS_SECRET_ACCESS_KEY      
+                  key: SQS_SECRET_ACCESS_KEY
             - name: QUEUE_CONFIRMACAO_PAGAMENTO
               valueFrom:
                 secretKeyRef:
                   name: secret-pagamentos
-                  key: QUEUE_CONFIRMACAO_PAGAMENTO      
+                  key: QUEUE_CONFIRMACAO_PAGAMENTO

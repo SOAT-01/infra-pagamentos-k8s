@@ -64,7 +64,6 @@ jobs:
             "stringData['NODE_ENV']": "${{ secrets.NODE_ENV }}",
             "stringData['MONGODB_CONN_STRING']": "${{ secrets.MONGODB_CONN_STRING }}",
             "stringData['MONGODB_DB']": "${{ secrets.MONGODB_DB }}",
-            "stringData['PEDIDO_SVC_URL']": "${{ secrets.PEDIDO_SVC_URL }}",
             "stringData['SQS_REGION']": "${{ secrets.SQS_REGION }}",
             "stringData['SQS_ACCESS_KEY_ID']": "${{ secrets.SQS_ACCESS_KEY_ID }}",
             "stringData['SQS_SECRET_ACCESS_KEY']": "${{ secrets.SQS_SECRET_ACCESS_KEY }}",
